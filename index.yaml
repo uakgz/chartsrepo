@@ -3,7 +3,21 @@ entries:
   uakgz-cassandra:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-08-14T12:01:18.988112+02:00"
+    created: "2023-08-14T12:09:47.849921+02:00"
+    dependencies:
+    - name: cassandra
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 9.7.7
+    description: A Helm chart for Kubernetes
+    digest: ebea3516fa0c2b16a9bd274b4021861fc46e0996bb734025e750e80be6a541bf
+    name: uakgz-cassandra
+    type: application
+    urls:
+    - https://uakgz.github.io/chartsrepo/charts/uakgz-cassandra-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-08-14T12:09:47.84752+02:00"
     dependencies:
     - name: cassandra
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -15,4 +29,4 @@ entries:
     urls:
     - https://uakgz.github.io/chartsrepo/charts/uakgz-cassandra-0.1.1.tgz
     version: 0.1.1
-generated: "2023-08-14T12:01:18.984736+02:00"
+generated: "2023-08-14T12:09:47.842742+02:00"
