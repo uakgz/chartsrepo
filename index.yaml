@@ -1,9 +1,24 @@
 apiVersion: v1
 entries:
+  grade-admin:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-08-14T12:13:50.440394+02:00"
+    dependencies:
+    - name: uakgz-cassandra
+      repository: https://uakgz.github.io/chartsrepo/
+      version: 0.1.2
+    description: A Helm chart for Kubernetes
+    digest: 7ad875b18091cd017998426f617be5e01253beb7a32997a1531a40c7ba88a321
+    name: grade-admin
+    type: application
+    urls:
+    - https://uakgz.github.io/chartsrepo/charts/grade-admin-0.1.1.tgz
+    version: 0.1.1
   uakgz-cassandra:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-08-14T12:09:47.849921+02:00"
+    created: "2023-08-14T12:13:50.445809+02:00"
     dependencies:
     - name: cassandra
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -17,7 +32,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-08-14T12:09:47.84752+02:00"
+    created: "2023-08-14T12:13:50.442898+02:00"
     dependencies:
     - name: cassandra
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -29,4 +44,4 @@ entries:
     urls:
     - https://uakgz.github.io/chartsrepo/charts/uakgz-cassandra-0.1.1.tgz
     version: 0.1.1
-generated: "2023-08-14T12:09:47.842742+02:00"
+generated: "2023-08-14T12:13:50.436403+02:00"
